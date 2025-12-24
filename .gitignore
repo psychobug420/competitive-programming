@@ -1,0 +1,71 @@
+# -----------------------------------------------------------------------------
+# CMake build directories (recursive)
+# -----------------------------------------------------------------------------
+**/build/
+**/build-*/
+**/cmake-build-*/
+**/out/
+**/out-*/
+**/dist/
+
+# Generic CMake build artifacts
+**/CMakeFiles/
+**/CMakeCache.txt
+**/cmake_install.cmake
+**/CTestTestfile.cmake
+**/Makefile
+**/install_manifest.txt
+
+# Ninja
+**/.ninja_deps
+**/.ninja_log
+
+# -----------------------------------------------------------------------------
+# IDE-specific CMake build folders
+# -----------------------------------------------------------------------------
+# CLion / JetBrains
+**/.idea/
+**/cmake-build-debug*/
+**/cmake-build-release*/
+**/cmake-build-RelWithDebInfo*/
+**/cmake-build-MinSizeRel*/
+
+# VS Code
+**/.vscode/
+**/.cache/
+
+# Visual Studio
+**/*.sln
+**/*.vcxproj*
+**/*.user
+**/*.opensdf
+**/*.sdf
+**/*.db
+
+# -----------------------------------------------------------------------------
+# Compiled objects / libs / binaries
+# -----------------------------------------------------------------------------
+**/*.o
+**/*.obj
+**/*.lo
+**/*.la
+**/*.a
+**/*.lib
+**/*.so
+**/*.so.*
+**/*.dylib
+**/*.dll
+**/*.exe
+**/*.out
+
+# Debug / profiling
+**/*.pdb
+**/*.dSYM/
+**/*.gcda
+**/*.gcno
+**/*.gcov
+
+# Misc
+**/*.log
+**/*.tmp
+**/*.cache
