@@ -2,20 +2,23 @@ cmake_minimum_required(VERSION 3.10)
 
 project(Codeforces)
 
-MACRO(SUBDIRLIST result curdir)
-    FILE(GLOB children RELATIVE ${curdir} ${curdir}/*)
-    SET(dirlist "")
-    FOREACH(child ${children})
-        IF(IS_DIRECTORY ${curdir}/${child})
+macro(SUBDIRLIST result curdir)
+    file(GLOB children RELATIVE ${curdir} ${curdir}/*)
+    set(dirlist "")
+    foreach(child ${children})
+        if(IS_DIRECTORY ${curdir}/${child})
             LIST(APPEND dirlist ${curdir}/${child})
-        ENDIF()
-    ENDFOREACH()
-    SET(${result} ${dirlist})
-ENDMACRO()
+        endif()
+    endforeach()
+    set(${result} ${dirlist})
+endmacro()
 
 SUBDIRLIST(SUBDIRS ${CMAKE_SOURCE_DIR}/contests)
 
-FOREACH(subdir ${SUBDIRS})
-    ADD_SUBDIRECTORY(${subdir})
-ENDFOREACH()
+foreach(subdir ${SUBDIRS})
+    add_subdirectory(${subdir})
+endforeach()
+
+# This added here to remove error highlighting for templates
+add_subdirectory(templates)
 
