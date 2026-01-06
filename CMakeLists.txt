@@ -19,6 +19,7 @@ foreach(subdir ${SUBDIRS})
     add_subdirectory(${subdir})
 endforeach()
 
+add_subdirectory(practice)
+
 # This added here to remove error highlighting for templates
 add_subdirectory(templates)
-

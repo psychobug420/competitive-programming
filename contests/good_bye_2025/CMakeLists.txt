@@ -8,5 +8,3 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 add_executable(${PROJECT_NAME}_TASK_A task_a.cpp)
 
 add_executable(${PROJECT_NAME}_TASK_B task_b.cpp)
-
-add_executable(${PROJECT_NAME}_TASK_C task_c.cpp)
