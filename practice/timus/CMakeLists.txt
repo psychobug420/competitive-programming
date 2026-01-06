@@ -10,3 +10,5 @@ add_executable(${PROJECT_NAME}1001_Reverse_Root 1001_reverse_root.cpp)
 add_executable(${PROJECT_NAME}1000_A_Plus_B 1000_a_plus_b.cpp)
 
 add_executable(${PROJECT_NAME}1293_Eniya 1293_eniya.cpp)
+
+add_executable(${PROJECT_NAME}1409_Two_Gangsters 1409_two_gangsters.cpp)
