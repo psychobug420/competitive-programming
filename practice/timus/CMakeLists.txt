@@ -18,3 +18,5 @@ add_executable(${PROJECT_NAME}1785_Lost_In_Localization 1785_lost_in_localizatio
 add_executable(${PROJECT_NAME}2012_About_Grisha_N 2012_about_grisha_n.cpp)
 
 add_executable(${PROJECT_NAME}1877_Bicycle_Codes 1877_bicycle_codes.cpp)
+
+add_executable(${PROJECT_NAME}1264_Workdays 1264_workdays.cpp)
