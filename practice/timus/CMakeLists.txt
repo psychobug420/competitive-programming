@@ -12,3 +12,5 @@ add_executable(${PROJECT_NAME}1000_A_Plus_B 1000_a_plus_b.cpp)
 add_executable(${PROJECT_NAME}1293_Eniya 1293_eniya.cpp)
 
 add_executable(${PROJECT_NAME}1409_Two_Gangsters 1409_two_gangsters.cpp)
+
+add_executable(${PROJECT_NAME}1785_Lost_In_Localization 1785_lost_in_localization.cpp)
