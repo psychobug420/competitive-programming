@@ -26,3 +26,5 @@ add_executable(${PROJECT_NAME}2001_Mathematicians_and_Berries 2001_mathematician
 add_executable(${PROJECT_NAME}1787_Turn_For_MEGA 1787_turn_for_mega.cpp)
 
 add_executable(${PROJECT_NAME}1820_Ural_Steaks 1820_ural_steaks.cpp)
+
+add_executable(${PROJECT_NAME}1197_Lonesome_Knight 1197_lonesome_knight.cpp)
