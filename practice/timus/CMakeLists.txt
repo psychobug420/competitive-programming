@@ -24,3 +24,5 @@ add_executable(${PROJECT_NAME}1264_Workdays 1264_workdays.cpp)
 add_executable(${PROJECT_NAME}2001_Mathematicians_and_Berries 2001_mathematicians_and_berries.cpp)
 
 add_executable(${PROJECT_NAME}1787_Turn_For_MEGA 1787_turn_for_mega.cpp)
+
+add_executable(${PROJECT_NAME}1820_Ural_Steaks 1820_ural_steaks.cpp)
