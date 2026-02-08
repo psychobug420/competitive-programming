@@ -1,23 +1,11 @@
 cmake_minimum_required(VERSION 3.10)
 
-project(Codeforces)
+project(CompetitiveProgramming)
 
-macro(SUBDIRLIST result curdir)
-    file(GLOB children RELATIVE ${curdir} ${curdir}/*)
-    set(dirlist "")
-    foreach(child ${children})
-        if(IS_DIRECTORY ${curdir}/${child})
-            LIST(APPEND dirlist ${curdir}/${child})
-        endif()
-    endforeach()
-    set(${result} ${dirlist})
-endmacro()
+# Add cmake modules directory to the search path
+list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
 
-SUBDIRLIST(SUBDIRS ${CMAKE_SOURCE_DIR}/contests)
-
-foreach(subdir ${SUBDIRS})
-    add_subdirectory(${subdir})
-endforeach()
+add_subdirectory(contests)
 
 add_subdirectory(practice)
 
