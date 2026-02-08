@@ -69,3 +69,7 @@
 **/*.log
 **/*.tmp
 **/*.cache
+
+# CTags and build artifacts
+tags
+**/compile_commands.json
