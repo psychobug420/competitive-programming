@@ -1,5 +1,11 @@
 #include <bits/stdc++.h>
 
+#ifdef COMPETITIVE_DEBUG
+#include "test_runner.h"
+#else
+#define RUN_WITH_TESTS()
+#endif
+
 /*
  * My idea of solving this problem is to generate max XOR pairs for each number bellow N in DP so later I can start checking would they fit or know, for now I just dunno how to implement them properly
  */
@@ -106,6 +112,8 @@ void do_test_case()
 // @todo: SOLVE THIS PROBLEM IN A MONTH, link: https://codeforces.com/problemset/problem/2180/C
 int main()
 {
+    RUN_WITH_TESTS()
+
     size_t tests_num{};
     std::cin >> tests_num;
 

@@ -6,8 +6,5 @@ project(CompetitiveProgramming)
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
 
 add_subdirectory(contests)
-
 add_subdirectory(practice)
-
-# This added here to remove error highlighting for templates
 add_subdirectory(templates)

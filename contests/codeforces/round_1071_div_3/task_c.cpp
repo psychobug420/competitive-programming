@@ -1,7 +1,15 @@
 #include <bits/stdc++.h>
 
+#ifdef COMPETITIVE_DEBUG
+#include "test_runner.h"
+#else
+#define RUN_WITH_TESTS()
+#endif
+
 int main()
 {
+    RUN_WITH_TESTS()
+
     std::string num_tests_data;
     std::getline(std::cin, num_tests_data);
     size_t num_tests = std::stoull(num_tests_data);

@@ -1,5 +1,11 @@
 #include <bits/stdc++.h>
 
+#ifdef COMPETITIVE_DEBUG
+#include "test_runner.h"
+#else
+#define RUN_WITH_TESTS()
+#endif
+
 void do_test()
 {
     std::string l{};
@@ -30,6 +36,8 @@ void do_test()
 
 int main()
 {
+    RUN_WITH_TESTS()
+
     std::ios::sync_with_stdio(false);
     std::cin.tie(nullptr);
 
