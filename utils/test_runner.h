@@ -1,8 +1,6 @@
 #ifndef TEST_RUNNER_H
 #define TEST_RUNNER_H
 
-#ifdef COMPETITIVE_DEBUG
-
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -38,11 +36,5 @@ public:
 
 #define RUN_WITH_TESTS() \
     TestRunner __test_runner__;
-
-#else
-
-#define RUN_WITH_TESTS()
-
-#endif
 
 #endif // TEST_RUNNER_H
